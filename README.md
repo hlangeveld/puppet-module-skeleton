@@ -7,7 +7,9 @@ keep track of releases and structure your modules according to strong
 conventions.
 
 [![Build
-Status](https://travis-ci.org/garethr/puppet-module-skeleton.svg?branch=master)](https://travis-ci.org/garethr/puppet-module-skeleton)
+Status](https://travis-ci.org/garethr/puppet-module-skeleton.svg?branch=master)](
+https://travis-ci.org/garethr/puppet-module-skeleton
+)
 
 ## Installation
 
@@ -19,7 +21,10 @@ As we don't want to have our .git files and this README in our skeleton, we expo
 
     git clone https://github.com/garethr/puppet-module-skeleton
     cd puppet-module-skeleton
-    find skeleton -type f | git checkout-index --stdin --force --prefix="$HOME/.puppet/var/puppet-module/" --
+    find skeleton -type f |
+      git checkout-index \
+        --stdin --force \
+        --prefix="$HOME/.puppet/var/puppet-module/" --
 
 ## Usage
 
